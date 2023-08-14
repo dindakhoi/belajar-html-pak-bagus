@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<bodY style="margin-left: 35%;">
+    <h2 style="color: blue;">Formulir pendaftaran siswa</h2>
+    <!--input nama-->
+    <label for="nama">nama</label><br>
+    <input type="text" id="text" name="nama" required><br>
+    <!--input email-->
+    <label for="email">email</label><br>
+    <input type="text" id="text" name="email" required><br>
+    <!--input password-->
+    <label for="password">password</label><br>
+    <input type="password" id="text" name="password" required><br>
+    <!--input usia-->
+    <label for="usia">usia</label><br>
+    <input type="text" id="text" name="usia" required><br>
+    <!--tanggal lahir-->
+    <label for="tanggal_lahir">tanggal lahir</label><br>
+    <input type="date" name="tanggal_lahir"><br>
+    <!--hobi-->
+    <label for="hobi">hobi:</label><br>
+    <input type="checkbox" name="hobi" value="membaca buku"> membaca buku
+    <input type="checkbox" name="hobi" value="menonton"> menonton
+    <input type="checkbox" name="hobi" value="berbelanja"> berbelanja
+    <input type="checkbox" name="hobi" value="trevelling"> trevelling
+    <input type="checkbox" name="hobi" value="olahraga"> olahraga <br>
+    <!--saudara-->
+    <label for="sodara kandung">sodara kandung</label><br>
+    <input type="radio" name="sodara kandung" value="1"> 1
+    <input type="radio" name="sodara kandung" value="2"> 2
+    <input type="radio" name="sodara kandung" value="3"> 3
+    <input type="radio" name="sodara kandung" value="4"> 4
+    <input type="radio" name="sodara kandung" value="5"> 5<br>
+    <!--kelas-->
+    <label for="kelas">Kelas:</label><br>
+    <select id="kelas" name="kelas" required>
+        <option value="XI RPL 1">XI RPL 1</option>
+        <option value="XI RPL 2">XI RPL 2</option>
+        <option value="XI RPL 3">XI RPL 3</option>
+    </select><br>
+    <!--pesan kesan-->
+    <label for="kesan dan pesan">kesan dan pesan</label><br>
+    <textarea id="kesan dan pesan" name="kesan dan pesan" rows="4" cols="50" required></textarea><br>
+    <button style="submit">Kirim</button>
+</body>
+</html>
